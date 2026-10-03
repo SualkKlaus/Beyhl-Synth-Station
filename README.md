@@ -36,7 +36,7 @@ Bank **BriansBank21** wählen, Klang **00 „OnTheBeach“**, dann **Key hold** 
 
 ## Klangbänke
 
-Der Synth spielt amSynth-Klangbänke (Dateien mit Endung .bank).
+Unser Synthesizer ist so gebaut, dass er die Klangbänke von amsynth spielen kann – dem freien Software-Synthesizer von Nick Dowell (Dateien mit Endung .bank). An dieser Stelle danken wir Nick Dowell und allen Mitwirkenden von amsynth herzlich dafür, dass sie ihre Arbeit und ihre Klangbänke frei zur Verfügung stellen.
 - Ist amsynth installiert, werden dessen Bänke automatisch benutzt.
 - Sonst die Klangbänke-Zip von oben holen, entpacken und alle .bank-Dateien einzeln aus dem entpackten Ordner herausnehmen und direkt neben das Programm legen – beliebig viele, auch eigene. In einer Zip oder einem Unterordner findet das Programm sie nicht.
 - Die Werksbänke gibt es oben unter „Klangbänke“ als Zip; Herkunft: https://github.com/amsynth/amsynth, Lizenz GNU GPL 2.
