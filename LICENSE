@@ -1,0 +1,16 @@
+Beyhl Synth-Station
+Copyright (c) 2026 Klaus Beyhl, Beyhl Software. Alle Rechte vorbehalten.
+
+Das Programm "Beyhl-Synth-Station" darf kostenlos benutzt und unverändert weitergegeben werden.
+Verkaufen sowie Verändern, Zerlegen oder Zurückübersetzen des Programms ist nicht erlaubt,
+soweit die Lizenzen der unten genannten Bestandteile nichts anderes erlauben (insbesondere
+Änderungen an diesen Bestandteilen und das dafür nötige Untersuchen des Programms).
+Keine Gewährleistung, Benutzung auf eigene Gefahr.
+
+Enthaltene fremde Bestandteile:
+- Studio-Hall und Chorus (calf.rs), nachgebaut nach Calf Studio Gear,
+  GNU LGPL 2.1 oder neuer (siehe LICENSE-LGPL-2.1.txt). Der Quelltext liegt als calf.rs in diesem Repository.
+- Qt / PySide6: GNU LGPL 3.0
+- Python: Python Software Foundation License
+- python-rtmidi: MIT-Lizenz
+- cpal, rtrb: Apache-2.0 / MIT
