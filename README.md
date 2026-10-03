@@ -76,6 +76,26 @@ Eigene Arp-Muster und Szenen speichert das Programm in seinem Ordner.
 
 **Windows:** Unter Windows kann ein MIDI-Gerät meist nur von einem Programm gleichzeitig benutzt werden; um den Synth aus einem anderen Musikprogramm anzusteuern, braucht man ein virtuelles MIDI-Kabel wie das kostenlose loopMIDI.
 
+## Mit Cubase oder einer anderen DAW
+
+Die Synth-Station ist ein eigenständiges Programm, kein VST-Plugin. In eine DAW (Musikprogramm wie Cubase, Reaper, Ableton, Studio One) bindet man sie über zwei Wege ein: Noten hin, Ton zurück.
+
+**Windows – Noten hin:** Ein virtuelles MIDI-Kabel installieren, z. B. das kostenlose loopMIDI (von Tobias Erichsen); es legt einen Port „loopMIDI Port“ an. In der DAW die MIDI-Spur auf diesen Port ausgeben, in der Synth-Station den Port oben bei den MIDI-Eingängen einschalten. Noten und Reglerbewegungen (CC, siehe Tabelle oben) kommen dann aus der DAW.
+
+**Windows – Ton zurück:** Der Synth spielt auf den Standard-Ausgang von Windows. Zum Aufnehmen entweder die Loopback-Funktion der Soundkarte nutzen (viele Audio-Interfaces haben sie, z. B. die Steinberg-UR-Serie in dspMixFx) – dann liegt alles, was Windows abspielt, auf einem Aufnahme-Eingang –, oder ein virtuelles Audiokabel (z. B. das kostenlose VB-Cable) als Windows-Standard-Ausgang wählen und in der DAW als Eingang aufnehmen.
+
+**Beispiel Cubase mit Loopback-Soundkarte:**
+
+1. loopMIDI starten, der Port „loopMIDI Port“ ist da.
+2. In Cubase eine MIDI-Spur anlegen, Ausgang „loopMIDI Port“.
+3. In der Synth-Station oben bei den MIDI-Eingängen „loopMIDI Port“ einschalten.
+4. Loopback der Soundkarte einschalten.
+5. In Cubase eine Stereo-Audiospur auf den Loopback-Eingang stellen und aufnehmen.
+
+Beim Aufnehmen das Mithören dieser Audiospur in Cubase ausschalten, sonst entsteht eine Rückkopplung. Ob Cubase und Windows die Soundkarte gleichzeitig nutzen dürfen, hängt vom Treiber ab; die Steinberg-Treiber erlauben es.
+
+**Linux:** Kein virtuelles MIDI-Kabel nötig – die MIDI-Ausgänge der DAW erscheinen direkt bei den MIDI-Eingängen der Synth-Station. Den Ton leitet man unter PipeWire mit einem Verbindungs-Werkzeug wie qpwgraph von der Tonquelle des Synths in den Eingang der DAW.
+
 ## Ton
 
 Der Ton geht automatisch an den Standard-Ausgang von Linux (Toneinstellungen).
