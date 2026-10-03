@@ -43,6 +43,39 @@ Der Synth spielt amSynth-Klangbänke (Dateien mit Endung .bank).
 
 Eigene Arp-Muster und Szenen speichert das Programm in seinem Ordner.
 
+## MIDI-Steuerung
+
+**Linux und Windows:** Jedes MIDI-Keyboard oder -Steuergerät spielt den Synth; es erscheint oben bei den MIDI-Eingängen und wird dort eingeschaltet. Alle Regler sind per Controller (CC) steuerbar: Wert 0–127 fährt den Regler über seinen ganzen Bereich, Schalter springen in gleich großen Stufen, die Oberfläche bewegt sich sichtbar mit. Chorus, Studio-Hall, Echo, EQ und Arpeggiator sind nicht per CC steuerbar.
+
+| CC | Regler | CC | Regler |
+|---|---|---|---|
+| 0 + Programmwechsel | Bank + Klang wählen | 1 | Modulationsrad = LFO → Tonhöhe |
+| 7 | Gesamtlautstärke | 64 | Haltepedal |
+| 10 | Panorama | Pitch Bend | Tonhöhe |
+| 20 | Lautstärke-Hüllkurve Attack | 41 | LFO → Lautstärke |
+| 21 | Lautstärke-Hüllkurve Decay | 42 | Mischer Ringmod |
+| 22 | Lautstärke-Hüllkurve Sustain | 43 | Oszillator 1 Form |
+| 23 | Lautstärke-Hüllkurve Release | 44 | Oszillator 2 Form |
+| 24 | Oszillator 1 Wellenform (Sinus, Puls, Dreieck/Säge, Rauschen, S&H) | 45 | Synth-Hall Raum |
+| 25 | Filter-Hüllkurve Attack | 46 | Synth-Hall Dämpfung |
+| 26 | Filter-Hüllkurve Decay | 47 | Synth-Hall Anteil |
+| 27 | Filter-Hüllkurve Sustain | 48 | Synth-Hall Breite |
+| 28 | Filter-Hüllkurve Release | 49 | Verzerrung |
+| 29 | Filter Resonanz | 50 | Oszillator 2 Sync (aus / an) |
+| 30 | Filter Hüllkurven-Stärke | 51 | Portamento-Zeit |
+| 31 | Filter Cutoff | 52 | Spielweise (Poly, Mono, Legato) |
+| 32 | Oszillator 2 Feinstimmung | 53 | Oszillator 2 Halbton |
+| 33 | Oszillator 2 Wellenform | 54 | Filtertyp (Tiefpass, Hochpass, Bandpass, Kerbe, Aus, Moog) |
+| 34 | Lautstärke (wie CC 7) | 55 | Filter-Steilheit (12 / 24 dB/Okt) |
+| 35 | LFO Tempo | 56 | LFO-Ziel (Osz 1+2, Osz 1, Osz 2) |
+| 36 | LFO Wellenform (Sinus, Rechteck, Dreieck, Rauschen, S&H, Säge ↑, Säge ↓) | 57 | Filter Keytrack |
+| 37 | Oszillator 2 Oktave | 58 | Filter Anschlag |
+| 38 | Mischer Osz 1 ↔ 2 | 59 | Lautstärke Anschlag |
+| 39 | LFO → Tonhöhe (wie CC 1) | 60 | Portamento-Art (immer / nur legato) |
+| 40 | LFO → Filter | | |
+
+**Windows:** Unter Windows kann ein MIDI-Gerät meist nur von einem Programm gleichzeitig benutzt werden; um den Synth aus einem anderen Musikprogramm anzusteuern, braucht man ein virtuelles MIDI-Kabel wie das kostenlose loopMIDI.
+
 ## Ton
 
 Der Ton geht automatisch an den Standard-Ausgang von Linux (Toneinstellungen).
