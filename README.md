@@ -7,11 +7,11 @@ entwickelt von Klaus Beyhl (Beyhl Software) zusammen mit Claude Opus 5.5. Kosten
 
 ## ⬇ Herunterladen
 
-**[⬇ Für Linux](https://github.com/SualkKlaus/Beyhl-Synth-Station/releases/download/v30/Beyhl-Synth-Station-V30)**
+**[⬇ Für Linux](https://github.com/SualkKlaus/Beyhl-Synth-Station/releases/latest/download/Beyhl-Synth-Station-Linux)**
 
-**[⬇ Für Windows](https://github.com/SualkKlaus/Beyhl-Synth-Station/releases/download/v31-windows-test/Beyhl-Synth-Station-V31.exe)**
+**[⬇ Für Windows](https://github.com/SualkKlaus/Beyhl-Synth-Station/releases/latest/download/Beyhl-Synth-Station-Windows.exe)**
 
-**[⬇ Klangbänke (amsynth, GPL 2)](https://github.com/SualkKlaus/Beyhl-Synth-Station/releases/download/v30/Klangbaenke-amsynth.zip)** – entpacken und die .bank-Dateien neben das Programm legen.
+**[⬇ Klangbänke (amsynth, GPL 2)](https://github.com/SualkKlaus/Beyhl-Synth-Station/releases/latest/download/Klangbaenke-amsynth.zip)** – Zip entpacken und alle .bank-Dateien **einzeln direkt neben das Programm** in denselben Ordner legen. Eine Zip oder ein Unterordner wird nicht gelesen.
 
 ## Video
 
@@ -30,11 +30,15 @@ entwickelt von Klaus Beyhl (Beyhl Software) zusammen mit Claude Opus 5.5. Kosten
 
 **Windows:** Datei in einen eigenen Ordner legen und per Doppelklick starten. Warnt Windows vor einer unbekannten App: „Weitere Informationen“ → „Trotzdem ausführen“. Voraussetzung: 64-Bit-Windows.
 
+## Erster Start – schnell zum Klang
+
+Bank **BriansBank21** wählen, Klang **00 „OnTheBeach“**, dann **Key hold** auf On, **Arp** auf On und **Latch** auf On. Eine Taste drücken – der Synth spielt sofort und man hört, was er kann.
+
 ## Klangbänke
 
 Der Synth spielt amSynth-Klangbänke (Dateien mit Endung .bank).
 - Ist amsynth installiert, werden dessen Bänke automatisch benutzt.
-- Sonst die Bänke einfach in denselben Ordner wie das Programm legen – beliebig viele, auch eigene.
+- Sonst die Klangbänke-Zip von oben holen, entpacken und alle .bank-Dateien einzeln aus dem entpackten Ordner herausnehmen und direkt neben das Programm legen – beliebig viele, auch eigene. In einer Zip oder einem Unterordner findet das Programm sie nicht.
 - Die Werksbänke gibt es oben unter „Klangbänke“ als Zip; Herkunft: https://github.com/amsynth/amsynth, Lizenz GNU GPL 2.
 
 Eigene Arp-Muster und Szenen speichert das Programm in seinem Ordner.
