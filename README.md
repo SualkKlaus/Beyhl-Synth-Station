@@ -13,6 +13,8 @@ entwickelt von Klaus Beyhl (Beyhl Software) zusammen mit Claude Opus 5.5. Kosten
 
 **[⬇ Klangbänke (amsynth, GPL 2)](https://github.com/SualkKlaus/Beyhl-Synth-Station/releases/latest/download/Klangbaenke-amsynth.zip)** – Zip entpacken und alle .bank-Dateien **einzeln direkt neben das Programm** in denselben Ordner legen. Eine Zip oder ein Unterordner wird nicht gelesen.
 
+**[⬇ 26 Arp-Muster](https://github.com/SualkKlaus/Beyhl-Synth-Station/releases/latest/download/beyhl_synthstation_arps.json)** – neben das Programm legen (Name genau so lassen); ohne diese Datei startet der Synth mit 16 Mustern.
+
 ## Video
 
 [Video auf YouTube](https://www.youtube.com/watch?v=G9VVlh5ALDQ)
